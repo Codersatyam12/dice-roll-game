@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dice Rolling Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Rolling Game</h1>
+        <p>Enter your guess (1-6) and place your bet:</p>
+        <input type="number" id="guessInput" min="1" max="6" required>
+        <input type="number" id="betInput" min="1" required>
+        <button onclick="rollDice()">Roll the Dice</button>
+        <p id="result"></p>
+        <p id="winner"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
